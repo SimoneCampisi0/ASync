@@ -26,7 +26,7 @@ public class ASyncService implements GenericASyncService {
             Thread.sleep(2400);
             getEndpointB();
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 }
