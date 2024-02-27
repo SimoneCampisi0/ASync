@@ -1,6 +1,5 @@
 package com.simonecampisi.TestEndpoint.controllers;
 
-import com.simonecampisi.TestEndpoint.services.ASyncService;
 import com.simonecampisi.TestEndpoint.services.GenericASyncService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
